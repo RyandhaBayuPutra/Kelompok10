@@ -14,8 +14,8 @@ class CategoriesSeeder extends Seeder
     public function run(): void
     {
         categories::create([
-            'name' => 'programing',
-            'slug' => 'programing',
+            'name' => 'berita',
+            'slug' => 'berita',
         ]);
     }
 }

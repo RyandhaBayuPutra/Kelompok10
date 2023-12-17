@@ -3,14 +3,14 @@
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row mb-2">
                 <div class="col-sm-6">
                     <h1 class="m-0">Tambah Postingan</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="route('admin.dashboard')">Home</a></li>
                         <li class="breadcrumb-item active">Tambah Postingan</li>
                     </ol>
                 </div><!-- /.col -->
@@ -20,16 +20,16 @@
     <!-- /.content-header -->
 
     <section class="content">
-        <div class="container-fluid">
+        <div class="container">
             <form action="{{ route('admin.posts.store') }}" method="POST">
                 @csrf <!-- kepentingan security -->
                 <div class="row">
                     <!-- left column -->
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <!-- general form elements -->
                         <div class="card card-primary">
                             <div class="card-header">
-                                <h3 class="card-title">Form Tambah Postingan</h3>
+                                <h3 class="card-title">Tambah Postingan</h3>
                             </div>
                             <!-- /.card-header -->
                             <!-- form start -->

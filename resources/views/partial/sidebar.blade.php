@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="{{ route('admin.dashboard') }}" class="brand-link">
-        <span class="brand-text font-weight-light"><b>Kelompok 7</b></span>
+        <span class="brand-text font-weight-light"><b>Kelompok 10</b></span>
     </a>
 
     <!-- Sidebar Menu -->
@@ -33,7 +33,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="{{ route('admin.index') }}" class="nav-link">
+                <a href="{{ route('admin.posts.index') }}" class="nav-link">
                     <i class="nav-icon fas fa-user"></i>
                     <p>
                         Posts
@@ -41,7 +41,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="{{ route('admin.index') }}" class="nav-link">
+                <a href="{{ route('admin.categories') }}" class="nav-link">
                     <i class="nav-icon fas fa-user"></i>
                     <p>
                         Categories

@@ -20,8 +20,10 @@ class HomeController extends Controller
     }
 
     public function dashboard()
-    {
-        return view('dashboard');
+    {   
+        $data = User::get();
+
+        return view('dashboard', compact('data'));
     }
 
     public function categories()
